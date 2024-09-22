@@ -5,7 +5,7 @@ function NavBar() {
   return (
     <NavbarBs className="border-bottom border-secondry">
       <NavbarBs.Collapse className="justify-content-end">
-        <Button variant="btn btn-outline-secondry" className="text-success">
+        <Button variant="btn btn-outline-secondary" className="text-white">
           <BsCart className="mx-2"></BsCart>
           سبد خرید
         </Button>
