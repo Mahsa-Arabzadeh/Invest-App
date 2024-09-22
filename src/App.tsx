@@ -1,5 +1,13 @@
+import { Container } from "react-bootstrap";
+
+import NavBar from "./components/NavBar";
+
 function App() {
-  return <div>shopping cart</div>;
+  return (
+    <Container>
+      <NavBar />
+    </Container>
+  );
 }
 
 export default App;
